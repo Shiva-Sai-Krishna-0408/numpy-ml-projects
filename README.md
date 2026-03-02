@@ -31,5 +31,18 @@ Normalizes student exam scores across 5 subjects and categorizes them into High,
 python student_score_analyzer.py
 ```
 
+### 3. Movie Recommender
+Recommends the top 2 movies for each user based on their preference vectors using cosine similarity.
+
+**Concepts used:**
+- Cosine similarity
+- Dot product
+- Vector normalization
+- Sorting by similarity score
+
+**How to run:**
+```bash
+python movie_recommender.py
+
 ## About
 Built as part of my AI/ML learning journey. All projects implemented from scratch without high-level ML libraries to demonstrate core understanding.
