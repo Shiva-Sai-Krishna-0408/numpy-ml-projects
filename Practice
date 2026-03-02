@@ -1,0 +1,9 @@
+import pandas as pd
+
+students = pd.DataFrame({
+    "Name":    ["Ravi", "Priya", "Shiva", "Neha"],
+    "Marks":   [72, 88, 95, 61],
+    "Subject": ["Math", "Science", "Math", "Science"]
+})
+
+print(students)
