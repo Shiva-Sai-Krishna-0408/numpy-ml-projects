@@ -18,5 +18,18 @@ A semantic search engine that finds the most relevant topics for any query using
 python search_engine.py
 ```
 
+### 2. Student Score Analyzer
+Normalizes student exam scores across 5 subjects and categorizes them into High, Mid, and Low performance groups.
+
+**Concepts used:**
+- Min-Max normalization
+- Array operations
+- Performance categorization
+
+**How to run:**
+```bash
+python student_score_analyzer.py
+```
+
 ## About
 Built as part of my AI/ML learning journey. All projects implemented from scratch without high-level ML libraries to demonstrate core understanding.
