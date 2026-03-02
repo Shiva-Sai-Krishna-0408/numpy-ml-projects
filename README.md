@@ -43,6 +43,7 @@ Recommends the top 2 movies for each user based on their preference vectors usin
 **How to run:**
 ```bash
 python movie_recommender.py
+```
 
 ## About
 Built as part of my AI/ML learning journey. All projects implemented from scratch without high-level ML libraries to demonstrate core understanding.
