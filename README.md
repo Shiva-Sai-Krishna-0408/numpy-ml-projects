@@ -1,6 +1,6 @@
-# NumPy ML Projects
+# NumPy & Pandas ML Projects
 
-A collection of Machine Learning projects built from scratch using NumPy.
+A collection of Data Science and Machine Learning projects built from scratch using NumPy and Pandas.
 
 ## Projects
 
@@ -12,9 +12,7 @@ A semantic search engine that finds the most relevant topics for any query using
 - Vector embeddings
 - Sum normalization
 - Confidence distribution
-
-**How to run:**
-```bash
+```python
 python search_engine.py
 ```
 
@@ -25,9 +23,7 @@ Normalizes student exam scores across 5 subjects and categorizes them into High,
 - Min-Max normalization
 - Array operations
 - Performance categorization
-
-**How to run:**
-```bash
+```python
 python student_score_analyzer.py
 ```
 
@@ -39,10 +35,21 @@ Recommends the top 2 movies for each user based on their preference vectors usin
 - Dot product
 - Vector normalization
 - Sorting by similarity score
-
-**How to run:**
-```bash
+```python
 python movie_recommender.py
+```
+
+### 4. Regional Sales Analysis
+Analyzes regional sales performance across quarters, tracking revenue achievement, target completion, and revenue efficiency per headcount.
+
+**Concepts used:**
+- Achievement rate calculation
+- Pivot tables
+- Dynamic tie handling
+- Banker's rounding vs arithmetic rounding
+- GroupBy aggregation with status filtering
+```python
+python regional_sales_analysis.py
 ```
 
 ## About
