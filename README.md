@@ -52,5 +52,18 @@ Analyzes regional sales performance across quarters, tracking revenue achievemen
 python regional_sales_analysis.py
 ```
 
+### 5. Climate Data Analyzer
+Analyzes climate data across Indian cities, normalizing temperatures, scoring air quality, and classifying climate risk levels.
+
+**Concepts used:**
+- Min-Max normalization
+- Z-score calculation
+- GroupBy aggregation
+- Row-wise apply with axis=1
+- Multi-condition risk classification
+```python
+python climate_data_analyzer.py
+```
+
 ## About
 Built as part of my AI/ML learning journey. All projects implemented from scratch without high-level ML libraries to demonstrate core understanding.
