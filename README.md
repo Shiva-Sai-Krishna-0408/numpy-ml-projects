@@ -91,5 +91,18 @@ Analyzes stock price movements for AAPL and GOOGL, calculating daily returns, ro
 python stock_risk_analyzer.py
 ```
 
+### 8. E-Commerce Customer Analyzer
+Analyzes customer spending behavior across categories and months, segmenting customers by spend percentile and tracking month-over-month growth.
+
+**Concepts used:**
+- Spend per order efficiency
+- Total spend with transform()
+- Percentile-based customer segmentation
+- Most valuable customer identification
+- Month-over-month growth with pct_change()
+```python
+python E-Commerce_Customer_Analyzer.py
+```
+
 ## About
 Built as part of my AI/ML learning journey. All projects implemented from scratch without high-level ML libraries to demonstrate core understanding.
