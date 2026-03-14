@@ -104,5 +104,18 @@ Analyzes customer spending behavior across categories and months, segmenting cus
 python E-Commerce_Customer_Analyzer.py
 ```
 
+### 9. Energy Consumption Analyzer
+Analyzes renewable vs non-renewable energy consumption across Indian cities, identifying green cities, energy efficiency per capita and most improved renewable adoption.
+
+**Concepts used:**
+- Renewable ratio calculation
+- Energy per capita with NumPy
+- Multi-condition energy status classification
+- Most improved city via pct_change()
+- Most efficient city via minimum per capita
+```python
+python energy_consumption_analyzer.py
+```
+
 ## About
 Built as part of my AI/ML learning journey. All projects implemented from scratch without high-level ML libraries to demonstrate core understanding.
