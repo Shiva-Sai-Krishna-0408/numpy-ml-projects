@@ -65,5 +65,18 @@ Analyzes climate data across Indian cities, normalizing temperatures, scoring ai
 python climate_data_analyzer.py
 ```
 
+### 6. Employee Performance Tracker
+Tracks employee sales performance across departments and months, identifying top performers and consistently exceeding departments.
+
+**Concepts used:**
+- Achievement rate calculation
+- Multi-condition performance classification
+- Cumulative sales with GroupBy
+- Top performer identification per department
+- Boolean filtering with .all()
+```python
+python employee_performance_tracker.py
+```
+
 ## About
 Built as part of my AI/ML learning journey. All projects implemented from scratch without high-level ML libraries to demonstrate core understanding.
