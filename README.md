@@ -78,5 +78,18 @@ Tracks employee sales performance across departments and months, identifying top
 python employee_performance_tracker.py
 ```
 
+### 7. Stock Market Analyzer
+Analyzes stock price movements for AAPL and GOOGL, calculating daily returns, rolling averages, volatility and generating buy/sell signals.
+
+**Concepts used:**
+- Percentage change with pct_change()
+- Rolling window averages with GroupBy
+- Volatility via standard deviation
+- Datetime conversion and formatting
+- Buy/Sell/Hold signal classification
+```python
+python stock_risk_analyzer.py
+```
+
 ## About
 Built as part of my AI/ML learning journey. All projects implemented from scratch without high-level ML libraries to demonstrate core understanding.
